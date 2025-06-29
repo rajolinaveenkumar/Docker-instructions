@@ -1,7 +1,7 @@
 FROM almalinux:9
 
 ENV NODE_ENV=prod
-ENV APP_HOME=/usr/share/nginx/html/index.html
+ENV APP_HOME=/usr/share/nginx/html/
 
 RUN dnf install nginx -y
 WORKDIR $APP_HOME
