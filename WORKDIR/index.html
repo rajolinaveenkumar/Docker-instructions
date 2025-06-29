@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Welcome - Game Portal</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #1e3c72, #2a5298);
+      color: white;
+      text-align: center;
+      padding: 50px;
+    }
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 30px;
+    }
+    .game-buttons {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .game-buttons button {
+      background-color: #ffffff;
+      color: #2a5298;
+      border: none;
+      padding: 15px 30px;
+      font-size: 1rem;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    .game-buttons button:hover {
+      background-color: #dce3f2;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Welcome Naveen Rajoli 👋</h1>
+  <p>Greetings! Please select the game you want to play:</p>
+
+  <div class="game-buttons">
+    <button onclick="alert('Starting Tic Tac Toe...')">Tic Tac Toe</button>
+    <button onclick="alert('Starting Snake Game...')">Snake Game</button>
+    <button onclick="alert('Starting Memory Puzzle...')">Memory Puzzle</button>
+    <button onclick="alert('Starting Sudoku...')">Sudoku</button>
+  </div>
+
+</body>
+</html>
